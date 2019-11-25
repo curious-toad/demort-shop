@@ -1,8 +1,7 @@
 ---
-name: Scar the Lion
+name: Tiger Lady
 description_markdown: >-
-  Scar the lion is always true to himself. The Mufasa tragedy was a slight
-  blemish in what was otherwise a saint-like life.
+  Hear her rawr. Tiger tiger.
 
 
 
