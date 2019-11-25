@@ -1,5 +1,5 @@
 ---
-name: Sacha the Deer
+name: Gold Blighty Top Long Sleeve
 description_markdown: >-
   Sacha's elegant antlers have never been seen on such a beautiful t-shirt. Wear
   this majestic beast and feel all your problems float away.
@@ -8,8 +8,8 @@ description_markdown: >-
 
   Slim Fit, 5oz 100% Cotton T-Shirt.
 garment_type:
-price: '9.00'
-sku: deer
+price: '15.00'
+sku: blighty-gold
 stock: 10
 sizes:
   - Small
