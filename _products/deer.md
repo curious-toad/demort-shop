@@ -5,7 +5,6 @@ description_markdown: >-
   this majestic beast and feel all your problems float away.
 
 
-
   Slim Fit, 5oz 100% Cotton T-Shirt.
 garment_type:
 price: '15.00'
@@ -17,8 +16,8 @@ sizes:
   - Large
   - XL
 styles:
-  - name: Black
-    color: '#000000'
+  - name: Pink
+    color: '#f348c1'
     image: /images/products/deer/black.jpg
   - name: Blue
     color: '#39589e'
