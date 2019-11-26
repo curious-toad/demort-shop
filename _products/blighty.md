@@ -17,7 +17,7 @@ sizes:
 styles:
   - name: Pink
     color: '#f348c1'
-    image: /images/products/deer/black.jpg
+    image:
   - name: Gold
     color: '#ffdd09'
     image: /images/products/deer/blue.jpg
