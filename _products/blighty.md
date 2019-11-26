@@ -1,14 +1,14 @@
 ---
 name: Blighty Long Sleeve Top
 description_markdown: >-
-  Sacha's elegant antlers have never been seen on such a beautiful t-shirt. Wear
-  this majestic beast and feel all your problems float away.
+  The De Mort Blighty long sleeve. Come join the Blighty Horror Picture Show
+  with our hand pulled screen printed top.
 
 
-  Slim Fit, 5oz 100% Cotton T-Shirt.
+  Colours are fresh and on high quality heavy cotton.&nbsp;
 garment_type: top
 price: '15.00'
-sku: blighty-gold
+sku: blighty
 stock: 10
 sizes:
   - Medium
