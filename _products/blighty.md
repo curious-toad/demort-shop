@@ -17,8 +17,8 @@ sizes:
 styles:
   - name: Pink
     color: '#f348c1'
-    image:
+    image: /images/products/blighty/blighty-horror-picture-show-pink.jpg
   - name: Gold
     color: '#ffdd09'
-    image: /images/products/deer/blue.jpg
+    image: /images/products/blighty/blighty-horror-picture-show-gold.jpg
 ---
