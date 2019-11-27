@@ -5,7 +5,7 @@ layout: default
 	<section class="page">
 		<div class="container">
 			<div class="product-container">
-				{% include product-styles.html product=page %}
+				{% comment %} include product-styles.html product=page {% endcomment %}
 				<div class="product-details" id="add">
 					<h3>{{ page.name }}</h3>
 					{{ page.description_markdown | markdownify }}
