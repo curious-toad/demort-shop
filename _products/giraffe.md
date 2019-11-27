@@ -10,6 +10,7 @@ description_markdown: >-
 garment_type:
 price: '9.00'
 sku: giraffe
+test-image: /images/products/giraffe/green.jpg
 stock: 10
 sizes:
   - Small
