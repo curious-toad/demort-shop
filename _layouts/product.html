@@ -9,14 +9,14 @@ layout: default
 					<div class="style">
 						<img src="{{ site.baseurl }}{{ page.test-image }}">
 					</div>
-				</div>
-	<span>Check here</span>			
+				</div>		
 				{% comment %} include product-styles.html product=page {% endcomment %}
 				<div class="product-details" id="add">
 					<h3>{{ page.name }}</h3>
 					{{ page.description_markdown | markdownify }}
 
 					<h4>&pound;{{ page.price }}</h4>
+<a class="button" href="{{ page.etsy-link}}" title="View item on our Etsy shop">Buy on Etsy</a><br>
 					<div class="button">{% include snipcart-button.html product=page %}</div>
 				</div>
 			</div>
