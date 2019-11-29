@@ -16,7 +16,7 @@ layout: default
 					{{ page.description_markdown | markdownify }}
 
 					<h4>&pound;{{ page.price }}</h4>
-<a class="button" href="{{ page.etsy-link}}" title="View item on our Etsy shop">Buy on Etsy</a><br>
+<div class="button"><a href="{{ page.etsy-link}}" title="View item on our Etsy shop">Buy on Etsy</a></div><br>
 					<div class="button">{% include snipcart-button.html product=page %}</div>
 				</div>
 			</div>
