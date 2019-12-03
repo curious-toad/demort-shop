@@ -43,6 +43,7 @@ defaults:
       type: "products"
     values:
       layout: "product"
+      is_product: "true" 
   -
     scope:
       path: ""
