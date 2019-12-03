@@ -33,7 +33,7 @@
 				<div class="company-name"><a href="{{ site.baseurl }}/">{% include logo.html %} <span>{{ site.title }}</span></a></div>
 				{% include navigation.html %}
 			</div>
-
+{% unless page.is_product == "true" %} 
 			<section class="hero">
 				<div class="text-container">
 					{% if page.hero %}
@@ -47,6 +47,7 @@
 					{% endif %}
 				</div>
 			</section>
+{% endunless %} 
 		</header>
 		{{ content }}
 		<footer>
