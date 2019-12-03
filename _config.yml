@@ -13,13 +13,12 @@ logo: /siteicon.png
 description: Fur t-shirt store
 author:
   name: demort
-  email: fur@example.com
+  email: hello@demort.co.uk
   twitter: fur # twitter username without the @ symbol
-  phone: "+1 23456789"
 social:
-  name: Fur Template
+  name: De Mort
   links:
-    - https://github.com/CloudCannon/fur-jekyll-template
+    - https://www.demort.co.uk
 
 # -----
 # Build
@@ -32,6 +31,9 @@ collections:
   products:
     _hide_content: true
     output: true
+    _icon: shopping_cart
+  designs:
+    _hide_content: true
     _icon: shopping_cart
 
 permalink: pretty
