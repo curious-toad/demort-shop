@@ -9,6 +9,6 @@ description_markdown: >-
   Slim Fit, 5oz 100% Cotton T-Shirt.
 garment_type: top
 price: '9.00'
-etsy-link: www.bbc.co.uk/news
+etsy-link: https://www.bbc.co.uk/news
 image: /images/products/giraffe/green.jpg
 ---
