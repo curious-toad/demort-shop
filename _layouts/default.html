@@ -34,7 +34,7 @@
 				{% include navigation.html %}
 			</div>
 {% unless page.is_product == "true" %} 
-			<section class="hero">
+			<section class="hero" {% if page.hero-image %}style="background-image: url({{ page.hero-image }}); background-postion: center; background-size: cover;"{% endif %}>
 				<div class="text-container">
 					{% if page.hero %}
 						<h2>{{ page.hero }}</h2>
