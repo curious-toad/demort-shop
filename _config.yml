@@ -90,6 +90,9 @@ social_icons:
   - YouTube
   - RSS
 
+cloudcannon:
+  data: true
+
 _comments:
   map: Update the map location and display settings.
   latitude: Coordinates for the center marker on the map.
