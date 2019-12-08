@@ -1,13 +1,17 @@
 ---
 title: Contact
 description: Get in touch
-email: hello@jeneo.co.uk
+email: hello@demort.co.uk
 hero: Get in touch
 ---
 
+<h3>Fancy a chat?</h3>
+<p>Questions about your order or our products? Want to speak to us about a commission? Want to just say hi?</p>
+<p>Send us a message using the form below and we'll get back to you as soon as we can.</p>
+
 <div class="contact-box">
-	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-		<h3>Send us a message</h3>
+<form name="contact" action="/contact-success/" method="POST" data-netlify="true" class="contact-form">
+		<h4>Send us a message</h4>
 		<label for="name">Full Name</label>
 		<input type="text" name="name" id="name" placeholder="Enter your name..." autofocus>
 
@@ -18,8 +22,8 @@ hero: Get in touch
 		<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
 
 		<input type="hidden" name="_to" value="{{ page.email }}">
-		<input type="text" name="_gotcha" style="display: none;">
-
+		
+<input type="text" name="bot-field" style="display: none;" />
 		<input type="submit" value="Send Message">
 	</form>
 
