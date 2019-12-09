@@ -10,7 +10,8 @@ subtitle: Art and Illustration by Fleur Greenfield
 		<div class="container">
 			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_products" class="btn"><strong>&#9998;</strong> Manage products</a></p>
 			<ul class="product-list">
-				{% for design in site.designs %}
+{% assign designs = site.designs | sort: 'order' %}
+				{% for design in designs %}
 					<li>
 <div class="styles"><div class="style"><a href="{{ design.url}}"><img src="{{ design.image }}" alt="{{ design.name }}"></a></div></div>
 						{% comment %} include product-styles.html product=product {% endcomment %}
