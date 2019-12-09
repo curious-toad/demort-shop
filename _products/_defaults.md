@@ -3,7 +3,7 @@ name:
 order:
 product-type:
 price:
-description:
+description_markdown:
 dimensions:
   width:
   height:
@@ -13,7 +13,7 @@ _comments:
   name: Add a title for the product. Don't include the type, e.g. T-shirt, in the name (this is added automatically). 
   product-type: Select type from the list. 
   price: Enter without currency sign (in format of 10.00 or 12.34).
-  description: Enter a description of the product (can copy across from Etsy).
+  description_markdown: Enter a description of the product (can copy across from Etsy).
   dimensions: Enter width and height for Art Prints only. 
   width: Size in millimetres. 
   height: Size in millimetres. 
