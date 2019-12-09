@@ -4,8 +4,8 @@ product-type:
 price:
 description:
 dimensions:
-  - width:
-  - height:
+  width:
+  height:
 etsy-link:
 image:
 ---
