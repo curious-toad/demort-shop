@@ -8,7 +8,7 @@ google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Fur t-shirt store
+description: Art and illustration by freelance artist, Fleur Greenfield. 
 author:
   name: demort
   email: hello@demort.co.uk
@@ -30,9 +30,6 @@ collections:
     _hide_content: true
     output: true
     _icon: shopping_cart
-  product-types:
-    _hide_content: true
-    _icon: loyalty
   designs:
     _hide_content: true
     _icon: style
