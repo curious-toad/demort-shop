@@ -3,11 +3,10 @@ name: Tigers
 order: '20'
 product-type: Art Print
 price: '25.00'
-description: >-
+description_markdown: >-
   Made to order Giclee art print it is an edition of 25 and signed. All artwork
   is original and created by myself. The colours are mostly pantone pastels and
   look delicious in real life! 
-
 
   As this print is made to order, shipping can take up to 7 working days.
 dimensions:
