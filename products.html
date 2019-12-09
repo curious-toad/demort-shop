@@ -14,12 +14,13 @@ subtitle: Original merchandise by De Mort
 </div>
 			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_products" class="btn"><strong>&#9998;</strong> Manage products</a></p>
 			<ul class="product-list">
-				{% for product in site.products %}
+{% assign products = site.products | sort: 'order' %}
+				{% for product in products %}
 					<li>
 <div class="styles"><div class="style"><a href="{{ product.url}}"><img src="{{ product.image }}" alt="{{ product.name }}"></a></div></div>
 						{% comment %} include product-styles.html product=product {% endcomment %}
 						<div class="product-details">
-							<h4><a href="{{ product.url }}">{{ product.name }}</a></h4>
+							<h4><a href="{{ product.url }}">{{ product.name }} {{ product.product-type}}</a></h4>
 							<div class="product-description">
 								{{ product.description_markdown | truncate: 45 | markdownify }}
 							</div>
