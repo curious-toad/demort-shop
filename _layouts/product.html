@@ -14,7 +14,10 @@ layout: default
 				<div class="product-details" id="add">
 					<h3>{{ page.name }} {{ page.product-type}}</h3>
 
-{% if page.product-type	== 'Art Print' %} 				{{ page.description_markdown | markdownify }}
+{{ page.description_markdown | markdownify }}
+
+
+{% if page.product-type	== 'Art Print' %} 				
 {% if page.dimensions %}
 <h6>Dimensions</h6>
 <span class="product-dimensions">Width: {{ page.dimensions.width }}mm x Height: {{ page.dimensions.height }}mm</span>
