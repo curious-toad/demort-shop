@@ -1,6 +1,6 @@
 ---
 name:
-product-type:
+producttype:
 price:
 description:
 etsy-link:
