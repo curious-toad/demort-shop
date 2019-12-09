@@ -1,7 +1,7 @@
 ---
 name: Test design
 image: /images/bright-blue-day-fez-768×1024.jpg
-order: '10'
+order: '30'
 _comments:
   name: Add a title for the design.
   image: Upload an image (jpg) for the design.
