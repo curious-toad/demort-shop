@@ -1,0 +1,34 @@
+---
+name: Kalidescope
+order: '50'
+product-type: Art Print
+price: '25.00'
+description_markdown: >-
+  Made to order Giclee art print it is an edition of 25 and signed. All artwork
+  is original and created by myself. The colours are mostly pantone pastels and
+  look delicious in real life\!
+
+
+  As this print is made to order, shipping can take up to 7 working days.
+dimensions:
+  width: '420'
+  height: '297'
+etsy-link: >-
+  https://www.etsy.com/uk/shop/FleurDeMort89?ref=simple-shop-header-name&listing_id=693475040
+image: /images/products/art-prints/kalidescope-art-print.jpg
+_comments:
+  name: >-
+    Add a title for the product. Don't include the type, e.g. T-shirt, in the
+    name (this is added automatically).
+  product-type: Select type from the list.
+  price: Enter without currency sign (in format of 10.00 or 12.34).
+  description: Enter a description of the product (can copy across from Etsy).
+  dimensions: Enter width and height for Art Prints only.
+  width: Size in millimetres.
+  height: Size in millimetres.
+  etsy-link: Enter the link to the product page on Etsy.
+  image: Upload an image (jpg) for the product.
+  order: >-
+    Enter the position you want the product to appear on the shop page. Lower
+    numbers appear first. Use multiples of 10 for easy reordering.
+---
