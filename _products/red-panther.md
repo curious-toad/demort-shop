@@ -13,7 +13,8 @@ description_markdown: >-
 dimensions:
   width: '297'
   height: '420'
-etsy-link: 'https://www.etsy.com/uk/listing/704281506/art-print-tigers'
+etsy-link: >-
+  https://www.etsy.com/uk/listing/717009497/art-print-red-panther?ref=shop_home_active_3
 image: /images/products/art-prints/red-panther-art-print.jpg
 _comments:
   name: >-
