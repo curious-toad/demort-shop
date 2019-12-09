@@ -12,11 +12,16 @@ layout: default
 				</div>		
 				{% comment %} include product-styles.html product=page {% endcomment %}
 				<div class="product-details" id="add">
-					<h3>{{ page.name }}</h3>
-					{{ page.description_markdown | markdownify }}
+					<h3>{{ page.name }} {{ page.product-type}}</h3>
+
+{% if page.product-type	== 'Art Print' %} 				{{ page.description_markdown | markdownify }}
+{% if page.dimensions %}
+<span class="product-dimensions">{{ page.dimensions.width }}mm x {{ page.dimensions.height }}mm</span>
+{% endif %} 
+{% endif %} 
 
 					<h4>&pound;{{ page.price }}</h4>
-<div class="button"><a href="{{ page.etsy-link}}" title="View item on our Etsy shop">Buy on Etsy</a></div><br>
+<div class="button"><a href="{{ page.etsy-link}}" title="View item on our Etsy shop" target="_blank" >Buy on Etsy</a></div><br>
 					
 				</div>
 			</div>
