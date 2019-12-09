@@ -14,7 +14,7 @@ dimensions:
   width: '420'
   height: '297'
 etsy-link: 'https://www.etsy.com/uk/listing/704281506/art-print-tigers'
-image: /images/products/art-prints/tigers-art-print.jpg
+image: /images/products/art-prints/tiger-lady-art-print.jpg
 _comments:
   name: >-
     Add a title for the product. Don't include the type, e.g. T-shirt, in the
