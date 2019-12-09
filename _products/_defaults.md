@@ -10,14 +10,14 @@ dimensions:
 etsy-link:
 image:
 _comments:
-  name: Add a title for the design.
+  name: Add a title for the product. Don't include the type, e.g. T-shirt, in the name (this is added automatically). 
   product-type: Select type from the list. 
   price: Enter without currency sign (in format of 10.00 or 12.34).
   description: Enter a description of the product (can copy across from Etsy).
-  dimensions: Enter for Art Prints only. 
+  dimensions: Enter width and height for Art Prints only. 
   width: Size in millimetres. 
   height: Size in millimetres. 
   etsy-link: Enter the link to the product page on Etsy. 
-  image: Upload an image (jpg) for the design. 
-  order: Enter the position you want the design to appear on the homepage. Lower numbers appear first. Use multiples of 10 for easy reordering. 
+  image: Upload an image (jpg) for the product. 
+  order: Enter the position you want the product to appear on the shop page. Lower numbers appear first. Use multiples of 10 for easy reordering. 
 ---
