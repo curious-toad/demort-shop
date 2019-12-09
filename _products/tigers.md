@@ -1,6 +1,6 @@
 ---
 name: Tigers
-order: '20'
+order: '1'
 product-type: Art Print
 price: '25.00'
 description_markdown: >-
