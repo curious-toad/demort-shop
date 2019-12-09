@@ -13,7 +13,8 @@ description_markdown: >-
 dimensions:
   width: '420'
   height: '297'
-etsy-link: 'https://www.etsy.com/uk/listing/704281506/art-print-tigers'
+etsy-link: >-
+  https://www.etsy.com/uk/listing/718135731/art-print-tiger-lady?ref=shop_home_active_1
 image: /images/products/art-prints/tiger-lady-art-print.jpg
 _comments:
   name: >-
