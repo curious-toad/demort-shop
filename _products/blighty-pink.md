@@ -1,11 +1,14 @@
 ---
-name: Blighty Pink
+name: Blighty Horror Picture Show Pink
 order: '90'
 product-type: Long Sleeve T-shirt
 price: '15.00'
 description_markdown: >-
-  The De Mort Blighty Long sleeve T-shirt in Pink. Hand pulled screen print on
-  high quality heavy cotton, the colours are fresh and vibrant.
+  Join the Blighty Horror Picture Show with our hand pulled screen printed top\!
+
+
+  The signature De Mort Blighty Long sleeve T-shirt in Pink. Hand pulled screen
+  print on high quality heavy cotton, the colours are fresh and vibrant.
 
 
   View product on Etsy for sizes currently available.&nbsp;
