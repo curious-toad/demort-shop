@@ -1,6 +1,7 @@
 ---
 name:
 product-type:
+datatest:
 price:
 description:
 etsy-link:
