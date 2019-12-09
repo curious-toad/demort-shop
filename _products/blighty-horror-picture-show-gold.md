@@ -1,6 +1,6 @@
 ---
 name: Blighty Horror Picture Show Gold
-order: '100'
+order: '99'
 product-type: Long Sleeve T-shirt
 price: '15.00'
 description_markdown: >-
