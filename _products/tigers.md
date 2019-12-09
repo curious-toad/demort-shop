@@ -11,8 +11,8 @@ description_markdown: >-
 
   As this print is made to order, shipping can take up to 7 working days.
 dimensions:
-  width: '420'
-  height: '297'
+  width: '297'
+  height: '420'
 etsy-link: 'https://www.etsy.com/uk/listing/704281506/art-print-tigers'
 image: /images/products/art-prints/tigers-art-print.jpg
 _comments:
