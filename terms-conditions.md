@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Terms & Conditions
+hero: Terms & Conditions
 ---
 
 ## De Mort Terms of Service
