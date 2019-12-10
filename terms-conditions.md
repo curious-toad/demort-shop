@@ -1,3 +1,7 @@
+---
+layout: page
+title: Terms & Conditions
+---
 <h2>De Mort Terms of Service</h2>
 <h3>1. Terms</h3>
 <p>By accessing the website at <a href="http://www.demort.co.uk">http://www.demort.co.uk</a>, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.</p>
