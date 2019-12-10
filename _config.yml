@@ -41,6 +41,13 @@ defaults:
   -
     scope:
       path: ""
+      type: "post"
+    values:
+      layout: "post"
+      is_post: "true" 
+  -
+    scope:
+      path: ""
       type: "products"
     values:
       layout: "product"
