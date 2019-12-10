@@ -7,7 +7,7 @@ title: Terms & Conditions
 
 ### Summary
 
-De Mort is a trading and business name for Fleur Greenfield, UK-based freelance artist and designer. All works and content produced on this site www.demort.co.uk are copyrighted and remain solely the property (intellectual and physical) of Fleur Greenfield. No content can be reproduced without prior written permission.&nbsp;
+De Mort is a trading and business name for Fleur Greenfield, UK-based freelance artist and designer. All works and content produced on this site www.demort.co.uk are copyrighted and remain solely the property (intellectual and physical) of Fleur Greenfield. No content can be reproduced, copied or modified without prior written permission.&nbsp;
 
 ### 1\. Terms
 
