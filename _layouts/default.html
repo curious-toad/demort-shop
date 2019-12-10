@@ -33,7 +33,7 @@
 				<div class="company-name"><a href="{{ site.baseurl }}/">{% include logo.html %} <span>{{ site.title }}</span></a></div>
 				{% include navigation.html %}
 			</div>
-{% unless page.is_product == "true" %} 
+{% unless page.is_product OR page.is_post == "true" %} 
 			<section class="hero" {% if page.hero-image %}style="background-image: url({{ page.hero-image }}); background-postion: center; background-size: cover;"{% endif %}>
 				<div class="text-container">
 					{% if page.hero %}
