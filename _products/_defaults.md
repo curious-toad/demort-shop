@@ -2,10 +2,15 @@
 name:
 order:
 product-type:
-product-life-stage:
+product-status:
   - Current
   - Retired
   - Resurrected
+sizes:
+  - XS
+  - Small
+  - Medium
+  - Large
 price:
 description_markdown:
 dimensions:
