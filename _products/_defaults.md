@@ -2,7 +2,7 @@
 name:
 order:
 product-type:
-product-status:
+product-life-stage:
   - Current
   - Retired
   - Resurrected
