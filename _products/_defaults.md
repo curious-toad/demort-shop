@@ -6,7 +6,7 @@ product-status:
   - Current
   - Retired
   - Resurrected
-sizes:
+size:
   - XS
   - Small
   - Medium
