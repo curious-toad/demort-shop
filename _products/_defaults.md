@@ -2,6 +2,7 @@
 name:
 order:
 product-type:
+product-status:
 price:
 description_markdown:
 dimensions:
