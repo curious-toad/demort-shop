@@ -2,6 +2,10 @@
 name:
 order:
 product-type:
+product-status:
+  - Current
+  - Retired
+  - Resurrected
 price:
 description_markdown:
 dimensions:
