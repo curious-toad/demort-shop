@@ -2,15 +2,6 @@
 name:
 order:
 product-type:
-product-status:
-  - Current
-  - Retired
-  - Resurrected
-size:
-  - XS
-  - Small
-  - Medium
-  - Large
 price:
 description_markdown:
 dimensions:
