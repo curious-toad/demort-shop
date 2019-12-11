@@ -84,6 +84,11 @@ garment_types:
   - hat
   - top
 
+product-status:
+  - Current
+  - Retired
+  - Resurrected
+
 social_icons:
   - Email
   - Facebook
