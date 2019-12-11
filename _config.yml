@@ -84,7 +84,7 @@ garment_types:
   - hat
   - top
 
-product-status-group:
+product-class:
   - Current
   - Retired
   - Resurrected
