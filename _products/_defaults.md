@@ -2,7 +2,7 @@
 name:
 order:
 product-type:
-product-status:
+product-status-group:
 price:
 description_markdown:
 dimensions:
