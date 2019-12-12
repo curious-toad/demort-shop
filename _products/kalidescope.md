@@ -2,6 +2,7 @@
 name: Kalidescope
 order: '50'
 product-type: Art Print
+product-state: Current
 price: '25.00'
 description_markdown: >-
   Made to order Giclee art print it is an edition of 25 and signed. All artwork
