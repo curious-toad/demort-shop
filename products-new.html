@@ -14,7 +14,7 @@ subtitle: Original merchandise by De Mort
 </div>
 			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_products" class="btn"><strong>&#9998;</strong> Manage products</a></p>
 			<ul class="product-list">
-{% assign alive-products = site.products | where_exp: "product", "product.product-state == 'Current' or product.product-state == 'Resurrected'" %}
+{% assign alive-products = site.products | where_exp: "product", "product-state == 'Current' or product-state == 'Resurrected'" %}
 				{% for product in alive-products %}
 					<li>
 <div class="styles"><div class="style"><a href="{{ product.url}}"><img src="{{ product.image }}" alt="{{ product.name }}"></a></div></div>
