@@ -14,10 +14,10 @@ layout: default
 				<div class="product-details" id="add">
 					<h3>{{ page.name }} {{ page.product-type}}</h3>
 {% if page.product-state == "Resurrected" %} 
-<p class="product-status-resurrected">Resurrected!</p>
+<p class="product-status-resurrected"><strong>Resurrected!</strong></p>
 {% endif %} 
 {% if page.product-state == "Retired" %} 
-<p class="product-status-retired">R.I.P.</p>
+<p class="product-status-retired"><strong>R.I.P.</strong></p>
 {% endif %} 
 
 {{ page.description_markdown | markdownify }}
