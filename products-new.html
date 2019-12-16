@@ -24,7 +24,7 @@ subtitle: Original merchandise by De Mort
 						<div class="product-details">
 							<h4><a href="{{ product.url }}">{{ product.name }} {{ product.product-type}}</a></h4>
 {% if product.product-state == "Resurrected" %} 
-<span class="product-status-badge">Resurrected!</span>
+<span class="product-status-resurrected">Resurrected!</span>
 {% endif %} 
 
 							<div class="product-description">
@@ -45,12 +45,12 @@ subtitle: Original merchandise by De Mort
 						<div class="product-details">
 							<h4><a href="{{ product.url }}">{{ product.name }} {{ product.product-type}}</a></h4>
 {% if product.product-state == "Retired" %} 
-<span class="product-status-badge">R.I.P.</span>
+<span class="product-status-retired">R.I.P.</span>
 {% endif %} 
 							<div class="product-description">
 								{{ product.description_markdown | truncate: 45 | markdownify }}
 							</div>
-							<p>&pound;{{ product.price }}</p>
+						
 						</div>
 					</li>
 				{% endfor %}
