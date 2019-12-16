@@ -14,10 +14,10 @@ layout: default
 				<div class="product-details" id="add">
 					<h3>{{ page.name }} {{ page.product-type}}</h3>
 {% if page.product-state == "Resurrected" %} 
-<span class="product-status-resurrected">Resurrected!</span>
+<p class="product-status-resurrected">Resurrected!</p>
 {% endif %} 
 {% if page.product-state == "Retired" %} 
-<span class="product-status-retired">R.I.P.</span>
+<p class="product-status-retired">R.I.P.</p>
 {% endif %} 
 
 {{ page.description_markdown | markdownify }}
@@ -25,7 +25,7 @@ layout: default
 
 {% if page.product-type	== 'Art Print' %} 				
 {% if page.dimensions %}
-<span><strong>Dimensions</strong></span>
+<span><strong>Dimensions</strong></span></br>
 <span class="product-dimensions">Width: {{ page.dimensions.width }}mm x Height: {{ page.dimensions.height }}mm</span>
 {% endif %} 
 {% endif %} 
