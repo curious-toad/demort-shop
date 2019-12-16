@@ -4,12 +4,14 @@ order: '50'
 product-type: Short Sleeve T-shirt
 product-state: Retired
 price: '15'
-description_markdown:
+description_markdown: >-
+  Here he is, in all his glory. Our classic De Mort Jesus t-shirt featuring a
+  hand pulled design on high quality heavy cotton.&nbsp;
 dimensions:
   width:
   height:
 etsy-link:
-image:
+image: /images/products/t-shirts/jesus-t-shirt-back.jpg
 _comments:
   name: >-
     Add a title for the product. Don't include the type, e.g. T-shirt, in the
