@@ -2,7 +2,7 @@
 name: Blighty Horror Picture Show Gold
 order: '99'
 product-type: Long Sleeve T-shirt
-product-state:
+product-state: Resurrected
 price: '15.00'
 description_markdown: >-
   Join the Blighty Horror Picture Show with our hand pulled screen printed top\!
