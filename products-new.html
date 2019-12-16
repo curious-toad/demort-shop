@@ -23,6 +23,9 @@ subtitle: Original merchandise by De Mort
 						{% comment %} include product-styles.html product=product {% endcomment %}
 						<div class="product-details">
 							<h4><a href="{{ product.url }}">{{ product.name }} {{ product.product-type}}</a></h4>
+{% if product-state == "Resurrected" %} 
+<span class="resurrected">Resurrected!</span>
+{% endif %} 
 							<div class="product-description">
 								{{ product.description_markdown | truncate: 45 | markdownify }}
 							</div>
