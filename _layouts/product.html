@@ -34,14 +34,13 @@ layout: default
 <h4>Ashes to ashes...</h4>
 <p>Unfortunately, this item is no longer available. But never say never, we sometimes resurrect some of our older designs, especially if there's a big demand. If you would like us to consider bringing this design back, please <a href="/contact/" title="Contact Us">get in touch</a>.</p>
 {% else %} 
-					<h4>&pound;{{ page.price }}</h4>
-<div class="button"><a href="{{ page.etsy-link}}" title="View item on our Etsy shop" target="_blank" >Buy on Etsy</a></div><br>
+	{% assign cleaned-link = page.etsy-link | split: '?' %}
+			<h4>&pound;{{ page.price }}</h4>
+<div class="button"><a href="{{ cleaned-link[0] }}" title="View item on our Etsy shop" target="_blank" >Buy on Etsy</a></div><br>
 	{% endif %} 				
 				</div>
 			</div>
 		</div>
 	</section>
 </div>
-{% assign cleaned-link = page.etsy-link | split: '?' %}
-{{ cleaned-link[0] }} 
-{{ cleaned-link[1] }} 
+
