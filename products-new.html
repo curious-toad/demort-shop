@@ -19,12 +19,15 @@ subtitle: Original merchandise by De Mort
 {% assign alive-products = current-products | concat: resurrected-products %}
 				{% for product in alive-products %}
 					<li>
-<div class="styles"><div class="style"><a href="{{ product.url}}"><img src="{{ product.image }}" alt="{{ product.name }}"></a></div></div>
+<div class="styles"><div class="style"><a href="{{ product.url }}"><img src="{{ product.image }}" alt="{{ product.name }}"></a></div></div>
 						{% comment %} include product-styles.html product=product {% endcomment %}
 						<div class="product-details">
 							<h4><a href="{{ product.url }}">{{ product.name }} {{ product.product-type}}</a></h4>
 {% if product.product-state == "Resurrected" %} 
-<span class="resurrected">Resurrected!</span>
+<span class="product-state">Resurrected!</span>
+{% endif %} 
+{% if product.product-state == "Retired" %} 
+<span class="product-state">R.I.P.</span>
 {% endif %} 
 							<div class="product-description">
 								{{ product.description_markdown | truncate: 45 | markdownify }}
