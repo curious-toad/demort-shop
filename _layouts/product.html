@@ -13,10 +13,10 @@ layout: default
 				{% comment %} include product-styles.html product=page {% endcomment %}
 				<div class="product-details" id="add">
 					<h3>{{ page.name }} {{ page.product-type}}</h3>
-{% if product.product-state == "Resurrected" %} 
+{% if page.product-state == "Resurrected" %} 
 <span class="product-status-resurrected">Resurrected!</span>
 {% endif %} 
-{% if product.product-state == "Retired" %} 
+{% if page.product-state == "Retired" %} 
 <span class="product-status-retired">R.I.P.</span>
 {% endif %} 
 
@@ -25,7 +25,7 @@ layout: default
 
 {% if page.product-type	== 'Art Print' %} 				
 {% if page.dimensions %}
-<h6>Dimensions</h6>
+<span><strong>Dimensions</strong></span>
 <span class="product-dimensions">Width: {{ page.dimensions.width }}mm x Height: {{ page.dimensions.height }}mm</span>
 {% endif %} 
 {% endif %} 
