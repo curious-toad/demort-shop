@@ -16,7 +16,8 @@ description_markdown: >-
 dimensions:
   width:
   height:
-etsy-link: 'https://www.etsy.com/uk/listing/693474104/pink-blighty-long-sleeve'
+etsy-link: >-
+  https://www.etsy.com/uk/listing/693474104/pink-blighty-long-sleeve?ref=landingpage_similar_listing_top-1&frs=1
 image: /images/products/t-shirts/blighty-pink-long-sleeve-t-shirt.jpg
 _comments:
   name: >-
