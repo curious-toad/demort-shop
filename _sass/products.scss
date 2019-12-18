@@ -121,3 +121,7 @@
 		}
 	}
 }
+/* additional fixes for multi height images */
+.style img {
+	max-height: 353px;
+}
