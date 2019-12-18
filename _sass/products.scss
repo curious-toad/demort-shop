@@ -123,6 +123,8 @@
 	}
 }
 /* additional fixes for multi height images */
-.style img {
+@media screen and (min-width: 450px) 
+  { .style img {
 	max-height: 300px;
 }
+} 
