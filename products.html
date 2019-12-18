@@ -14,62 +14,34 @@ subtitle: Original merchandise by De Mort
             </div>
 			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_products" class="btn"><strong>&#9998;</strong> Manage products</a></p>
 			<ul class="product-list">
-                {% assign current-products = site.products | where: "product-state","Current" %} 
+				{% assign current-products = site.products | where: "product-state","Current" %} 
                 {% assign resurrected-products = site.products | where: "product-state","Resurrected" %}
                 {% assign alive-products = current-products | concat: resurrected-products %}
 				{% for product in alive-products %}
 					<li>
-                        <div class="styles">
+						<div class="styles">
                             <div class="style">
                                 <a href="{{ product.url }}">
                                     <img src="{{ product.image }}" alt="{{ product.name }}">
                                 </a>
                             </div>
                         </div>
-                            {% comment %} include product-styles.html product=product {% endcomment %}
-                        <div class="product-details">
+						<div class="product-details">
                             <h4><a href="{{ product.url }}">{{ product.name }} {{ product.product-type}}</a></h4>
                             {% if product.product-state == "Resurrected" %} 
                             <span class="product-status-resurrected">Resurrected!</span>
                             {% endif %} 
-                            <div class="product-description">
-                                {{ product.description_markdown | truncate: 45 | markdownify }}
-                            </div>
-                            <p>&pound;{{ product.price }}</p>
-                        </div>
+							<div class="product-description">
+								{{ product.description_markdown | truncate: 45 | markdownify }}
+							</div>
+							<p>${{ product.price }}</p>
+						</div>
 					</li>
-                {% endfor %}
-                <li></li>
+				{% endfor %}
+				<li></li>
 				<li></li>
 				<li></li>
 			</ul>
-
-            <h3>The Afterlife</h3>
-            <ul class="product-list">
-            {% assign retired-products = site.products | where: "product-state","Retired" %}
-            {% for product in retired-products %}
-            <li>
-                <div class="styles">
-                    <div class="style">
-                        <a href="{{ product.url}}">
-                            <img src="{{ product.image }}" alt="{{ product.name }}">
-                        </a>
-                    </div>
-                </div>
-                {% comment %} include product-styles.html product=product {% endcomment %}
-                <div class="product-details">
-                    <h4><a href="{{ product.url }}">{{ product.name }} {{ product.product-type}}</a></h4>
-                    {% if product.product-state == "Retired" %} 
-                    <span class="product-status-retired">R.I.P.</span>
-                    {% endif %} 
-                    <div class="product-description">
-                        {{ product.description_markdown | truncate: 45 | markdownify }}
-                    </div>
-                                    
-                </div>
-            </li>
-            {% endfor %}
-            </ul>
-        </div>
-    </section>
+		</div>
+	</section>
 </div>
