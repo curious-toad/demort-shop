@@ -34,7 +34,7 @@ subtitle: Original merchandise by De Mort
 							<div class="product-description">
 								{{ product.description_markdown | truncate: 45 | markdownify }}
 							</div>
-							<p>${{ product.price }}</p>
+							<p>&pound;{{ product.price }}</p>
 						</div>
 					</li>
 				{% endfor %}
