@@ -42,6 +42,34 @@ subtitle: Original merchandise by De Mort
 				<li></li>
 				<li></li>
 			</ul>
+			
+			<h3>The Afterlife</h3>
+            <p>All good things come to an end. Here's some of our older designs.</p>
+            <ul class="product-list">
+            {% assign retired-products = site.products | where: "product-state","Retired" %}
+            {% for product in retired-products %}
+            <li>
+                <div class="styles">
+                    <div class="style">
+                        <a href="{{ product.url}}">
+                            <img src="{{ product.image }}" alt="{{ product.name }}">
+                        </a>
+                    </div>
+                </div>
+                {% comment %} include product-styles.html product=product {% endcomment %}
+                <div class="product-details">
+                    <h4><a href="{{ product.url }}">{{ product.name }} {{ product.product-type}}</a></h4>
+                    {% if product.product-state == "Retired" %} 
+                    <span class="product-status-retired">R.I.P.</span>
+                    {% endif %} 
+                    <div class="product-description">
+                        {{ product.description_markdown | truncate: 45 | markdownify }}
+                    </div>
+                                    
+                </div>
+            </li>
+            {% endfor %}
+            </ul>
 		</div>
 	</section>
 </div>
