@@ -2,6 +2,7 @@
   font-family: "Bebas Neue", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
+  font-weight: normal;
 }
 
 @media (min-width:500px) {
