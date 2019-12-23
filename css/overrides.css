@@ -1,7 +1,7 @@
 .hero h2 {
   font-family: "Bebas Neue", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.025rem;
+  letter-spacing: 0.05rem;
 }
 
 @media (min-width:500px) {
