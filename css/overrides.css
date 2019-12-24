@@ -7,7 +7,7 @@
 
 @media (min-width:500px) {
  .hero h2 {
-  font-size:4rem;
+  font-size: 4rem;
   letter-spacing: 0.175rem;
  }
 }
@@ -17,7 +17,7 @@
 } 
 
 .post-card {
-  width: 100%;
+  width: 90%;
   margin: 20px auto;
 } 
 
