@@ -24,7 +24,7 @@
 } 
 
 @media (min-width:500px) {
- .post-card {
+ .post-card-image {
    max-height: 350px;
    width: auto;
  } 
