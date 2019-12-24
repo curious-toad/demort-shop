@@ -11,9 +11,26 @@
   letter-spacing: 0.175rem;
  }
 }
-  
+ 
+.post-list {
+  list-style: none;
+} 
+
+.post-card {
+  width: 100%;
+  margin: 20px auto;
+} 
+
+@media (min-width:500px) {
+ .post-card {
+   width: 80%;
+ } 
+} 
+
 .post-image {
   max-width: 100%;
   height: auto;
   margin: 0 5px;
 }
+
+
