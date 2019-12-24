@@ -5,19 +5,19 @@ hero: Blog
 subtitle: Read the latest news from us
 ---
 
-		<ul class="postList" style="list-style: none;">
+		<ul class="post-list">
 		{% for post in site.posts %}
-			<li class="postCard">
-				<div class="postCardImage">
+			<li class="post-card">
+				<div class="post-card-image">
 					<a href="{{ post.url }}" title="{{ post.title}}"><img src="{{ post.image }}" alt="{{ post.image-alt-text }}"></a>
 				</div>
-				<div class="postCardContent">
+				<div class="post-card-content">
 					<a href="{{ post.url }}" title="{{ post.title}}"><h3>{{ post.title}}</h3></a>
 					<p>{{ post.content | markdownify | strip_html | truncatewords: 50 }}</p>
 					</div>
-				<div class="postCardInfo">
+				<div class="post-card-info">
 					<span><i class="fa fa-tag" aria-hidden="true" alt="Tag"></i> <a href="/blog/category/{{post.categories[0] | slugify }}" title="View all posts in the {{ post.categories[0] | capitalize }} category">{{ post.categories[0] | capitalize }}</a></span>
-					<span class="postCardDate">{{ post.date | date: "%-d %b %Y" }}</span>
+					<span class="post-card-date">{{ post.date | date: "%-d %b %Y" }}</span>
 				</div>
 			</li>
 		{% endfor %}	
