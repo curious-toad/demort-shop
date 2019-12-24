@@ -12,8 +12,9 @@
  }
 }
  
-.post-list ul {
-  list-style: none;
+.post-list {
+  list-style-type: none;
+  margin: 0 auto;
 } 
 
 .post-card {
