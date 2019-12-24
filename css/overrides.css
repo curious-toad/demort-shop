@@ -24,7 +24,8 @@
 
 @media (min-width:500px) {
  .post-card {
-   width: 80%;
+   max-height: 350px;
+   width: auto;
  } 
 } 
 
@@ -35,3 +36,8 @@
 }
 
 
+@media (min-width:500px) {
+ .post-image {
+   width: 80%;
+ } 
+} 
