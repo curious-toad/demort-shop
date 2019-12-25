@@ -13,12 +13,13 @@ subtitle: Read the latest news from us
 				</div>
 				<div class="post-card-content">
 					<a href="{{ post.url }}" title="{{ post.title}}"><h3>{{ post.title}}</h3></a>
-					<p>{{ post.content | markdownify | strip_html | truncatewords: 50 }}</p>
-					</div>
-				<div class="post-card-info">
-					<span><i class="fa fa-tag" aria-hidden="true" alt="Tag"></i> <a href="/blog/category/{{post.categories[0] | slugify }}" title="View all posts in the {{ post.categories[0] | capitalize }} category">{{ post.categories[0] | capitalize }}</a></span>
+<div class="post-card-info">
+					<span><i class="material-icons">face</i><i class="fa fa-tag" aria-hidden="true" alt="Tag"></i> <a href="/blog/category/{{post.categories[0] | slugify }}" title="View all posts in the {{ post.categories[0] | capitalize }} category">{{ post.categories[0] | capitalize }}</a></span>
 					<span class="post-card-date">{{ post.date | date: "%-d %b %Y" }}</span>
 				</div>
+					<p>{{ post.content | markdownify | strip_html | truncatewords: 50 }}</p>
+					</div>
+				
 			</li>
 		{% endfor %}	
 		</ul>
