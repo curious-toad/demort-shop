@@ -45,6 +45,7 @@ defaults:
     values:
       layout: "post"
       is_post: "true" 
+      permalink: /blog/:title
   -
     scope:
       path: ""
@@ -63,9 +64,16 @@ defaults:
     values:
       layout: "default"
 
+# Archive setup
 jekyll-archives:
-  enabled:
+  enabled: 
     - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/blog/category/:name/'
+    tag: '/blog/tag/:name/'
+
 
 plugins:
   - jekyll-sitemap
