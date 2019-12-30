@@ -41,6 +41,6 @@
 
 @media (min-width:500px) {
  .post-image {
-   width: 80%;
+   max-width: 80%;
  } 
 } 
