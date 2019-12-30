@@ -42,7 +42,9 @@
 {% unless page.is_product or page.is_post == "true" %} 
 			<section class="hero" {% if page.hero-image %}style="background-image: url({{ page.hero-image }}); background-postion: center; background-size: cover;"{% endif %}>
 				<div class="text-container">
-					{% if page.hero %}
+{% if layout.hero %} 
+<h2>{{ layout.hero }}</h2>
+					{% elsif page.hero %}
 						<h2>{{ page.hero }}</h2>
 					{% elsif page.name %}
 						<h2>{{ page.name }}</h2>
