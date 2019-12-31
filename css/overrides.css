@@ -44,3 +44,7 @@
    max-width: 80%;
  } 
 } 
+
+.post-widget span {
+  display: block;
+} 
