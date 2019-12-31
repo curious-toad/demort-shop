@@ -59,7 +59,8 @@
 	line-height: 1.4em;
 } 
 
-.social-share-icon {
+.social-share-icon a {
+  top: 0.25em;
   font-size: 1.2rem;
   height: 1.2rem;
   width: auto;
