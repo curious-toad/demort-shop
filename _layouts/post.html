@@ -9,19 +9,15 @@ layout: default
 <span class="post-date">{{ page.date }}</span>
 {{ content }}
           <div id="post-widget">
-<span>Posted in <a href="/blog/category/{{ page.categories[0] | slugify }}" title="View all posts in the {{ page.categories[0] | capitalize }} category">{{ page.categories[0] }}</a> by Fleur.</span>
+<span>Posted in <a href="/blog/category/{{ page.categories[0] | slugify }}" title="View all posts in the {{ page.categories[0] | capitalize }} category">{{ page.categories[0] | capitalize }}</a> by Fleur.</span>
                         <span>
-                            {% if page.tags.size < 1 %}
-                            Tag:
-                            {% elsif page.tags.size > 1 %}
+                            {% if page.tags.size > 1 %}
                             Tags:
-                            {% endif %}
                             
-                            {% comment - original list is ... for tag in page.tags | sort | join: ", " %}
-                            {% endcomment %}
                             {% for tag in page.tags %}
                             <a href="/blog/tag/{{ tag }}/">{{ tag | capitalize }}</a> / 
                             {% endfor %}
+{% endif %} 
                             </span>
                         <span>Subscribe <a href="{{ 'feed.xml' | relative_url }}" title="Subscribe via RSS">via RSS</a></span>
                         <span>Share: 
