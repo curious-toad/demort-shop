@@ -6,7 +6,7 @@ layout: default
 		<div class="container {% if page.full_width %}max-container{% endif %}">
 <img class="post-image" src="{{ page.image }}">	
 <h3>{{ page.title }}</h3>
-<span class="post-date">{{ page.date }}</span>
+<span class="post-date">{{ page.date | date: "%b %-d, %Y" }}</span>
 {{ content }}
           <div id="post-widget">
 <span>Posted in <a href="/blog/category/{{ page.categories[0] | slugify }}" title="View all posts in the {{ page.categories[0] | capitalize }} category">{{ page.categories[0] | capitalize }}</a> by Fleur.</span>
