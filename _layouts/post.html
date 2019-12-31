@@ -9,7 +9,7 @@ layout: default
 <span class="post-date">{{ page.date }}</span>
 {{ content }}
           <div id="post-widget">
-<span>Posted in <a href="/blog/category/{{ post.categories[0] | slugify }}" title="View all posts in the {{ post.categories[0] | capitalize }} category">{{ post.categories[0] }}</a> by Fleur.</span>
+<span>Posted in <a href="/blog/category/{{ page.categories[0] | slugify }}" title="View all posts in the {{ page.categories[0] | capitalize }} category">{{ page.categories[0] }}</a> by Fleur.</span>
                         <span>
                             {% if page.tags.size < 1 %}
                             Tag:
