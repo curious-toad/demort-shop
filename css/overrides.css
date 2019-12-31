@@ -58,3 +58,9 @@
 	/*margin-bottom: 20px;*/
 	line-height: 1.4em;
 } 
+
+.social-share-icon {
+  height: 1.2rem;
+  width: auto;
+  color: #FCA8BA;
+} 
