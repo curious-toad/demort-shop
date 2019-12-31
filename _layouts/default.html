@@ -30,7 +30,7 @@
 		{% endif %}
 	</head>
 	<body>
-		<header {% if page.is_product or page.is_post == "true" %}class="header-thin"%}>
+		<header {% if page.is_product or page.is_post == "true" %}class="header-thin" {% endif %}>
 			<div class="container">
 				<div class="company-name">
 					<a href="{{ site.baseurl }}/">
