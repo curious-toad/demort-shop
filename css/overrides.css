@@ -46,7 +46,8 @@
 } 
 
 #post-widget {
-  margin-top: 20px;
+  margin-top: 30px;
+  border-top: 3px solid #666;
 }
 
 #post-widget span {
