@@ -125,15 +125,13 @@ _explore:
     - heading: Products
       collections:
         - products
-        - data:
-            - product-types
     - heading: Blogging
       collections:
         - posts
         - drafts
     - heading: Other
       collections:
-        - staff
+        - staff_members
         - data
 
 _comments:
