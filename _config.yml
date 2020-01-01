@@ -114,6 +114,26 @@ social_icons:
 cloudcannon:
   data: true
 
+_explore:
+  groups:
+    - heading: Pages
+      collections:
+        - pages
+    - heading: Designs
+      collections:
+        - designs
+    - heading: Products
+      collections:
+        - products
+    - heading: Blogging
+      collections:
+        - posts
+        - drafts
+    - heading: Other
+      collections:
+        - staff
+        - data
+
 _comments:
   map: Update the map location and display settings.
   latitude: Coordinates for the center marker on the map.
