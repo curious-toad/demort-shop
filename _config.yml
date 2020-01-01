@@ -125,7 +125,8 @@ _explore:
     - heading: Products
       collections:
         - products
-        - data.product-types
+        - data:
+            - product-types
     - heading: Blogging
       collections:
         - posts
