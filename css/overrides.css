@@ -46,13 +46,14 @@
  }
 }
 .post-image {
- max-width:100%;
+ width:100%;
  height:auto;
  margin:0 auto
 }
 @media (min-width:500px) {
  .post-image {
-  max-width:80%
+  height: 350px;
+  width: auto;
  }
 }
 #post-widget {
