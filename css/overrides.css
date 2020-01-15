@@ -1,73 +1,75 @@
 .header-thin {
-  padding-bottom: 12px;
+ padding-bottom:12px
 }
-
 .hero h2 {
-  font-family: "Bebas Neue", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.125rem;
-  font-weight: normal;
+ font-family:"Bebas Neue",sans-serif;
+ text-transform:uppercase;
+ letter-spacing:.125rem;
+ font-weight:400
 }
-
 @media (min-width:500px) {
  .hero h2 {
-  font-size: 4rem;
-  letter-spacing: 0.175rem;
+  font-size:4rem;
+  letter-spacing:.175rem
  }
 }
- 
 .post-list {
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-} 
-
+ list-style-type:none;
+ padding:0;
+ 
+}
 .post-card {
-  width: 100%;
-  margin: 20px auto;
-} 
-
+ width:100%;
+ margin:20px auto;
+}
 @media (min-width:500px) {
- .post-card-image {
-   max-height: 350px;
-   width: auto;
-   margin-bottom: 30px;
-   display: block;
- } 
-} 
-
-.post-image {
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
+  .post-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .post-card {
+    max-width: 46%;
+    flex-basis: 46%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .post-card-image {
+    height: 300px;
+  }
 }
 
-
+@media (min-width:500px) {
+ .post-card-image img {
+  max-height: 100%; 
+  width:auto; 
+ }
+}
+.post-image {
+ max-width:100%;
+ height:auto;
+ margin:0 auto
+}
 @media (min-width:500px) {
  .post-image {
-   max-width: 80%;
- } 
-} 
-
-#post-widget {
-  margin-top: 30px;
-  padding-top: 20px;
-  border-top: 1px solid #eee;
+  max-width:80%
+ }
 }
-
+#post-widget {
+ margin-top:30px;
+ padding-top:20px;
+ border-top:1px solid #eee
+}
 #post-widget span {
-  display: block;
-	font-size: 1.2rem;
-	color: #666;
-	/*margin-bottom: 20px;*/
-	line-height: 1.4em;
-} 
-
+ display:block;
+ font-size:1.2rem;
+ color:#666;
+ line-height:1.4em
+}
 .social-share-icon {
-  top: 0.5em;
-  font-size: 1.2rem;
-  height: 1.2rem;
-  width: auto;
-  color: #FCA8BA;
-  fill: #FCA8BA;
-} 
+ top:.5em;
+ font-size:1.2rem;
+ height:1.2rem;
+ width:auto;
+ color:#FCA8BA;
+ fill:#FCA8BA
+}
