@@ -19,7 +19,7 @@ subtitle: Read the latest news from us
 					
 				</div>
 					<p>{{ post.content | markdownify | strip_html | truncatewords: 50 }}</p>
-<span><i class="material-icons md-18" aria-hidden="true" alt="Tag">local_offer</i><a href="/blog/category/{{post.categories[0] | slugify }}" title="View all posts in the {{ post.categories[0] | capitalize }} category">{{ post.categories[0] | capitalize }}</a></span>
+<span><i class="post-card-tag material-icons md-18" aria-hidden="true" alt="Tag">local_offer</i><a href="/blog/category/{{post.categories[0] | slugify }}" title="View all posts in the {{ post.categories[0] | capitalize }} category">{{ post.categories[0] | capitalize }}</a></span>
 					</div>
 				
 			</li>
