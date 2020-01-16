@@ -57,6 +57,7 @@ defaults:
       path: ""
     values:
       layout: "page"
+      canonical_url: https://www.demort.co.uk/:path
   -
     scope:
       path: "index.html"
