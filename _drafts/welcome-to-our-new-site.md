@@ -8,7 +8,7 @@ description: >-
 category: News
 tags:
   - Website
-image:
+image: /images/blog-images/blog-launch.jpg
 _comments:
   title: Add a title for the post.
   date: Invalid date
@@ -21,4 +21,14 @@ _options:
     hidden: true
 ---
 
-Test
+Our new website is live\! Subscribe to our blog to stay up to date with the latest news from us and events we are attending. We'd love to see you spread De Mort\!
+
+Keep visiting to see our latest designs and let us know if you think they should be added to our future products collection.&nbsp;
+
+Now we mention it, we have an exclusive range of prints and tees available through our Products page. You can browse our available and past range and purchase via our Etsy shop.
+
+You can follow us on Instagram, Facebook and sign up to our newsletter, where you'll be the first to know about events and sales\!
+
+Thanks for showing your lovely face around here - spread the word\!&nbsp;
+
+X
