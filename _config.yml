@@ -2,7 +2,7 @@
 # Site
 
 title: De Mort
-url: "http://turquoise-rook.cloudvent.net/"
+url: "https://www.demort.co.uk/"
 baseurl:
 google_analytics_key: UA-106097727-2
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
@@ -56,8 +56,7 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "page"
-      canonical_url: https://www.demort.co.uk/:path
+      layout: "page" 
   -
     scope:
       path: "index.html"
