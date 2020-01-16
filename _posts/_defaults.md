@@ -4,7 +4,7 @@ title:
 date:
 description:
 category: 
-tag: 
+tags: 
 image:
 _comments:
   title: Add a title for the post. 
