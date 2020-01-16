@@ -1,0 +1,24 @@
+---
+layout: post
+title: Welcome to our new site!
+date: 2020-01-16 10:00:00
+description: >-
+  Our new website is live! Find out more about De Mort, our designs and how to
+  follow us.
+category: News
+tags:
+  - Website
+image:
+_comments:
+  title: Add a title for the post.
+  date: Invalid date
+  description: Add a meta description for SEO.
+  category: Set a single category for the post.
+  tag: Add tags to the post to help users explore content. (You can add multiple.)
+  image: Add a featured image for the post
+_options:
+  layout:
+    hidden: true
+---
+
+Test
