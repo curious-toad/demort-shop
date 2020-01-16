@@ -88,9 +88,10 @@ exclude:
 # -----------
 # CloudCannon
 
-garment_types:
-  - hat
-  - top
+categories:
+  - News
+  - Events
+  - Products
 
 product-states:
   - Current
