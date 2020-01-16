@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to our new site!
-date: 2020-01-17 10:00:00
+date: 2020-01-15 10:00:00
 description: >-
   Our new website is live! Find out more about De Mort, our designs and how to
   follow us.
