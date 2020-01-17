@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Terms & Conditions
+description: Read our terms and conditions for using our website, how we process data and orders and your rights of use.
 hero: Terms & Conditions
 ---
 
