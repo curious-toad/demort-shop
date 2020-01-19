@@ -1,6 +1,6 @@
 ---
 name: Chaise With Cats
-description:
+meta-description: does this go
 order: '40'
 product-type: Art Print
 product-state: Current
