@@ -1,10 +1,11 @@
 ---
 name: Chaise With Cats
+description:
 order: '40'
 product-type: Art Print
 product-state: Current
 price: '25.00'
-description_markdown: >-
+product-description_markdown: >-
   Made to order Giclee art print it is an edition of 25 and signed. All artwork
   is original and created by myself. The colours are mostly pantone pastels and
   look delicious in real life\!
