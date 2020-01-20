@@ -1,10 +1,11 @@
 ---
 name: Blighty Horror Picture Show Gold
+description:
 order: '99'
 product-type: Long Sleeve T-shirt
 product-state: Resurrected
 price: '15.00'
-description_markdown: >-
+product-description_markdown: >-
   Join the Blighty Horror Picture Show with our hand pulled screen printed top\!
 
 
@@ -22,9 +23,10 @@ _comments:
   name: >-
     Add a title for the product. Don't include the type, e.g. T-shirt, in the
     name (this is added automatically).
+  description: Add a meta description to help search engines index your product. 
   product-type: Select type from the list.
   price: Enter without currency sign (in format of 10.00 or 12.34).
-  description_markdown: Enter a description of the product (can copy across from Etsy).
+  product-description_markdown: Enter a description of the product (can copy across from Etsy).
   dimensions: Enter width and height for Art Prints only.
   width: Size in millimetres.
   height: Size in millimetres.
