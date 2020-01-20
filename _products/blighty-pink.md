@@ -24,7 +24,7 @@ _comments:
   name: >-
     Add a title for the product. Don't include the type, e.g. T-shirt, in the
     name (this is added automatically).
-  description: ‡
+  description: Add a meta description to help search engines index your product. 
   product-type: Select type from the list.
   price: Enter without currency sign (in format of 10.00 or 12.34).
   product-description_markdown: Enter a description of the product (can copy across from Etsy).
