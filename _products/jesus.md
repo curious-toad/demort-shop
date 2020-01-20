@@ -1,10 +1,11 @@
 ---
 name: Jesus
+description:
 order: '50'
 product-type: Short Sleeve T-shirt
 product-state: Retired
 price: '15'
-description_markdown: >-
+product-description_markdown: >-
   Here he is, in all his glory. Our classic De Mort Jesus t-shirt featuring a
   hand pulled design on high quality heavy cotton.&nbsp;
 dimensions:
@@ -16,9 +17,10 @@ _comments:
   name: >-
     Add a title for the product. Don't include the type, e.g. T-shirt, in the
     name (this is added automatically).
+  description: Add a meta description to help search engines index your product. 
   product-type: Select type from the list.
   price: Enter without currency sign (in format of 10.00 or 12.34).
-  description_markdown: Enter a description of the product (can copy across from Etsy).
+  product-description_markdown: Enter a description of the product (can copy across from Etsy).
   dimensions: Enter width and height for Art Prints only.
   width: Size in millimetres.
   height: Size in millimetres.
