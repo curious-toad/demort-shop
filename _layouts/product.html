@@ -7,7 +7,7 @@ layout: default
 			<div class="product-container">
 				<div class="styles">
 					<div class="style">
-						<img src="{{ site.baseurl }}{{ page.image }}">
+						<a href="{{ site.baseurl }}{{ page.image }}" data-lightbox="product-{{ page.name | downcase | slugify }}"<img src="{{ site.baseurl }}{{ page.image }}"></a>
 					</div>
 				</div>		
 				{% comment %} include product-styles.html product=page {% endcomment %}
