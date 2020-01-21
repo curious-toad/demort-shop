@@ -14,7 +14,7 @@ subtitle: Art and Illustration by Fleur Greenfield
 {% assign designs = site.designs | sort: 'order' %}
 				{% for design in designs %}
 					<li>
-<div class="styles"><div class="style"><a href="#" data-lightbox="design-{{ design.name }}"><img src="{{ design.image }}" alt="{{ design.name }}"></a></div></div>
+<div class="styles"><div class="style"><a href="{{ design.image }}" data-lightbox="design-{{ design.name }}"><img src="{{ design.image }}" alt="{{ design.name }}"></a></div></div>
 						{% comment %} include product-styles.html product=product {% endcomment %}
 						<div class="product-details">
 							<h4><a href="#">{{ design.name }}</a></h4>
