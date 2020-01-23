@@ -42,7 +42,7 @@
 {% if layout.hero %} 
 <h2>{{ layout.hero }}</h2>
 					{% elsif page.hero %}
-						<h2>{{ page.hero }}</h2>
+						<h2>{{ page.hero | markdownify }}</h2>
 					{% elsif page.name %}
 						<h2>{{ page.name }}</h2>
 					{% endif %}
